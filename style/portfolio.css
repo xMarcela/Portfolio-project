@@ -1,0 +1,71 @@
+:root {
+    --primary-color: #FFCB9A;
+    --secondary-color: #116466;
+    --third-color: #fff;
+}
+
+body {
+    background: #000;
+}
+
+h1, h2, h3 {
+    color: var(--third-color);
+    font-family: "Playfair Display", serif;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+h2 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+p {
+    color: var(--third-color);
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+.hero {
+    text-align: center;
+    padding: 120px;
+    line-height: 2;
+}
+
+.skills-container {
+    border: solid;
+    border-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 100px;
+}
+
+.btn-branding {
+    color: var(--secondary-color);
+    border-color: var(--secondary-color);
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 12px 15px;
+    margin: 25px;
+}
+
+.btn-button {
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    border-radius: 3px;
+    font-size: 16px;
+    line-height: 27px;
+    padding: 12px 15px;
+    margin: 25px;
+}
+
+.icon {
+    background-color: var(--primary-color);
+    width: 50px;
+}
