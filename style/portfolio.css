@@ -38,13 +38,6 @@ p {
     line-height: 2;
 }
 
-.skills-container {
-    border: solid;
-    border-color: var(--primary-color);
-    border-radius: 2px;
-    padding: 100px;
-}
-
 .btn-branding {
     color: var(--secondary-color);
     border-color: var(--secondary-color);
@@ -65,7 +58,9 @@ p {
     margin: 25px;
 }
 
-.icon {
-    background-color: var(--primary-color);
-    width: 50px;
+.skills-container {
+    border: solid;
+    border-color: var(--primary-color);
+    border-radius: 2px;
+    padding: 10px;
 }
