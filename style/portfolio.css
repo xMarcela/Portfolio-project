@@ -69,3 +69,9 @@ p {
     border-radius: 2px;
     padding: 10px;
 }
+
+.fab, .far {
+    font-size: 40px;
+    color: var(--primary-color);
+    padding: 15px;
+}

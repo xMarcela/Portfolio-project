@@ -5,11 +5,81 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Contact | Marcela Ravn</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style/portfolio.css" />
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/098b7eae3b.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Marcela Ravn</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span
+                    class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="project.html">Projects</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ms-auto me-5 mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" aria-current="page" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h2>Get in touch</h2>
+                <br>
+                <p>Have some questions, work enquiries or check out my coding?
+                    <br>
+                    Feel free to use the form
+                </p>
+                <p>Or connect with me through</p>
+                <a target="_blank" href="www.linkedin.com/in/aleksandra-marcela-ravn-a83b79204"><i
+                        class="fab fa-linkedin" aria-hidden="true"></i></a>
+                <a target="_blank" href="https://github.com/xMarcela"><i class="fab fa-github-square"
+                        aria-hidden="true"></i></a>
+                <a target="_blank" href="mailto:aleksmravn@gmail.com"><i class="far fa-envelope"
+                        aria-hidden="true"></i></a>
+            </div>
+            <div class="col">
+                <form>
+                    <div class="form-group col-md-6">
+                        <label for="Input1">Name</label>
+                        <input type="text" class="form-control" id="Input1" placeholder="Name">
+                    </div>
+                    <div class="form-group col-md-6">
+                        <label for="Input2">Email</label>
+                        <input type="email" class="form-control" id="Input2" placeholder="email@example.com">
+                    </div>
+                    <div class="form-group col-md-8">
+                        <label for="Textareal">Message</label>
+                        <textarea class="form-control" id="textArea" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-branding">Send</button>
+                </form>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>
