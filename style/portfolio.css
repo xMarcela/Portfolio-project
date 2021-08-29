@@ -32,9 +32,20 @@ p {
     font-family: "Poppins";
 }
 
+.navbar {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.active {
+    color: var(--primary-color) !important;
+}
+
+.navitem {
+    padding: 0 20px;
+}
+
 .hero {
     text-align: center;
-    padding: 120px;
     line-height: 2;
 }
 
