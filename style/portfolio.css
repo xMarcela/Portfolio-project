@@ -75,3 +75,7 @@ p {
     color: var(--primary-color);
     padding: 15px;
 }
+
+.labelStyle {
+    color: var(--secondary-color);
+}
